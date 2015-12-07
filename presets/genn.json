@@ -1,0 +1,57 @@
+{
+        "requireSpaceAfterKeywords": [
+            "if",
+            "else",
+            "for",
+            "while",
+            "do",
+            "switch",
+            "return",
+            "catch"
+        ],
+
+        "requireCurlyBraces": [
+            "if",
+            "else",
+            "for",
+            "while",
+            "do"
+        ],
+
+        "requireSpacesInConditionalExpression": {
+            "afterTest": true,
+            "beforeConsequent": true,
+            "afterConsequent": true,
+            "beforeAlternate": true
+        },
+
+        "requireSpacesInFunctionDeclaration": {
+            "beforeOpeningRoundBrace": true
+        },
+
+         "disallowKeywords": [
+             "with"
+         ],
+
+        "requireKeywordsOnNewLine" : [
+            "else",
+            "catch"
+        ],
+
+        "disallowSpaceAfterPrefixUnaryOperators": true,
+        "disallowSpacesInsideParentheses": { "only": [ "{", "}", "\"" ] },
+        "disallowEmptyBlocks": true,
+        "validateQuoteMarks": "'",
+        "disallowMultipleLineStrings": true,
+        "disallowImplicitTypeConversion": [
+            "numeric"
+        ],
+        "disallowYodaConditions": true,
+        "requireDotNotation": true,
+        "validateLineBreaks": "LF",
+        "requireSemicolons": true,
+        "disallowCommaBeforeLineBreak": true,
+        "requireSpaceBetweenArguments": true,
+        "safeContextKeyword": "self",
+        "requireNewlineBeforeBlockStatements": ["if", "else", "function"]
+}
