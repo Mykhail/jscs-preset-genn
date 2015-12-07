@@ -1,10 +1,26 @@
 {
   "name": "jscs-config-astound-genn",
-  "version": "0.0.3",
-  "description": "Code style for Genn",
-  "main": "jscs.json",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.0.4",
+  "author": "M.Sobko",
+  "description": "JSCS preset code for GenerationN coding style.",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mykhail/jscs-preset-genn"
   },
-  "author": "M.Sobko"
+  "contributors": [
+    {
+      "name": "Mikhail Sobko",
+      "email": "mikhail.sobko@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "main": "./presets/genn.json",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "jscs": "2.4.0",
+    "mocha": "2.3.3"
+  }
 }
